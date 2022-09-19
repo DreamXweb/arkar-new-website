@@ -1,0 +1,56 @@
+.header {
+  position: relative;
+  margin-top: 48px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  &__logo {
+    display: block;
+    width: 62px;
+  }
+  &__btn{
+    z-index: 3;
+    height: 56px;
+    width: 225px;
+  }
+  &__img{
+    width: 1200px;
+    overflow: hidden;
+    position: absolute;
+    top: -48px;
+    left: 464px;
+    z-index: -1;
+    }
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-direction:row;
+    &-link {
+      text-decoration: none;
+      color:aliceblue;
+      font-size: 18px;
+    }
+    &-item {
+      padding-right: 42px;
+    }
+  }
+select {
+  cursor: pointer;
+  outline: none;
+  margin-right: 27px;
+  height: 28px;
+  width: 60px;
+  border: 1px solid #fff;
+  background: transparent;
+  border-radius: 8px;
+  color:#fff;
+  appearance: none;
+  text-align: center;
+  option {
+    font-size: 20px;
+    color: #000;
+  }
+}
+}

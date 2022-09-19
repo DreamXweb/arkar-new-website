@@ -1,0 +1,16 @@
+*{
+  font-family: sans-serif;
+}
+body{
+  background: #060e28;
+}
+.container {
+  position: relative;
+  width: 1410px;
+  margin: 0 auto;
+}
+
+@import 'blocks/buttons';
+@import 'blocks/dots';
+@import 'blocks/header';
+@import 'blocks/promo';

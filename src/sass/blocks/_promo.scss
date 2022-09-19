@@ -1,0 +1,63 @@
+.promo {
+  position: relative;
+  &__dot{
+    &-1{
+      top: -14px;
+      right: 587px;
+    }
+    &-2{
+      top: 100px;
+      left: 300px;
+    }
+    &-3{
+      z-index: -1;
+      bottom: 280px;
+      left: 350px;
+    }
+    &-4{
+      bottom: 285px;
+      right: -80px;
+    }
+    &-5{
+      bottom: 120px;
+      left: 65px;
+    }
+  }
+  padding-top: 230px;
+  &__subtitle {
+    font-size: 17px;
+    letter-spacing: 12px;
+    font-weight: 300;
+    color: #485375;
+  }
+  &__title {
+    margin-top: 44px;
+    font-size: 68px;
+    color: #fff;
+    font-weight: bold;
+  }
+  &__text {
+    margin-top: 55px;
+    font-size: 14px;
+    color: #fff;
+  }
+  &__btn {
+    margin-top: 120px;
+    height: 68px;
+    width: 240px;
+  }
+  &__img {
+    &-logo{
+      position: absolute;
+      bottom: -21px;
+      right: -182px;
+      opacity: 0.1;
+      z-index: -1;
+    }
+    &-artar{
+      position: absolute;
+      top: 20px;
+      right: 45px;
+    }
+  }
+}
