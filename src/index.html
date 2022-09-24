@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+<img id='planets' src="img/planets.png" alt="planets">
   <div class="container">
     <header class="header">
       <a href="#" class="header__logo">
@@ -26,6 +27,7 @@
         </ul>
       </nav>
       <div>
+        <label for='lng-select' style="display: none">Language:</label>
         <select name="language" id="lng-select">
           <option value="eng">ENG</option>
           <option value="ru">RUS</option>
@@ -33,9 +35,6 @@
           <option value="ita">ITA</option>
         </select>
         <button class="button header__btn">Вход | Регистрация</button>
-      </div>
-      <div class="header__img">
-        <img src="img/planets.png" alt="planets">
       </div>
     </header>
   </div>

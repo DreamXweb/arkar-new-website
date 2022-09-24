@@ -14,14 +14,6 @@
     height: 56px;
     width: 225px;
   }
-  &__img{
-    width: 1200px;
-    overflow: hidden;
-    position: absolute;
-    top: -48px;
-    left: 464px;
-    z-index: -1;
-    }
   &__menu {
     display: flex;
     justify-content: space-between;
