@@ -1,9 +1,15 @@
-*{
-  font-family: sans-serif;
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+  font-family: 'Montserrat', sans-serif;
 }
-body{
+
+body {
   background: #060e28;
 }
+
 .container {
   position: relative;
   width: 1410px;
@@ -14,3 +20,5 @@ body{
 @import 'blocks/dots';
 @import 'blocks/header';
 @import 'blocks/promo';
+
+@import 'blocks/media';
